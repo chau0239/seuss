@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+nav {
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+nav li {
+  display: inline;
+  padding-right: 30px;
+}
+
+.hero-text {
+  font-size: 60px;
+  text-align: center;
+  padding: 30px 0;
+  font-weight: bolder;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.book-img {
+  width: 200px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.quotes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quote-box {
+  flex: 40%;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px;
+}
+
+.quote-box p.title {
+  font-weight: bold;
+}
+
+
+.quote-box p.subtitle {
+  color: #727272;
+}
+
+.product-container {
+  margin: 50px 0;
+  display: flex;
+}
+
+.product-container img {
+  width: 400px;
+  margin: 0 50px;
+}
